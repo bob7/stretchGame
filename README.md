@@ -5,8 +5,6 @@ Two players create a bipartite graph between two sets of nodes of size N:
 - player 1 may reuse left-nodes, but Player 2 may never reuse a right-node. 
 - a parameter k sets the difficulty of player 1 winning the game. 
 
-<p margin-top="400px" align="center"><img width="650"  src="./stretch1.png"></p>
-
 A set R of k many right-nodes is a **k-stretch** if r< m where
 
 - r is the distance between the smallest and largest node in R
@@ -19,3 +17,5 @@ Player 1 wins as soon as the there is a k-stretch in the graph within N/2 comple
 - yellow edges connect two consecutive red nodes on the left with the smallest and largest red-node on the right
 
 so that the yellow edges from left to right approach each other (this witnesses a k-stretch).
+
+<p margin-top="400px" align="center"><img width="650"  src="./stretch1.png"></p>
