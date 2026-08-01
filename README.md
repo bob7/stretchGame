@@ -5,6 +5,8 @@ Two players create a bipartite graph between two sets of nodes of size N:
 - player 1 may reuse left-nodes, but Player 2 may never reuse a right-node. 
 - a parameter k sets the difficulty of player 1 winning the game. 
 
+<p margin-top="400px" align="center"><img width="650"  src="./stretch1.png"></p>
+
 A set R of k many right-nodes is a **k-stretch** if r< m where
 
 - r is the distance between the smallest and largest node in R
