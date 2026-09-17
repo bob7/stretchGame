@@ -1,6 +1,6 @@
 # Stretch
 
-Stretch is a two-player browser game about building a bipartite graph. 
+Stretch is a two-player game on a bipartite graph. 
 
 <p margin-top="400px" align="center"><img width="450"  src="./stretch-loop.svg"></p>
 
