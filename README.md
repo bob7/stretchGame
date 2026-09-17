@@ -1,3 +1,11 @@
+# Stretch
+
+Stretch is a two-player browser game about building a bipartite graph. 
+
+<p margin-top="400px" align="center"><img width="450"  src="./stretch-loop.svg"></p>
+
+## How to play
+
 Two players create a bipartite graph between two sets of nodes of size N: 
 
 - player 1 clicks any node on the left
@@ -18,4 +26,18 @@ Player 1 wins as soon as the there is a k-stretch in the graph within N/2 comple
 
 so that the yellow edges from left to right approach each other (this witnesses a k-stretch).
 
-<p margin-top="400px" align="center"><img width="650"  src="./stretch1.png"></p>
+## Controls
+
+| Control | Action |
+| --- | --- |
+| **size** slider | Set the number of nodes on each side (`N`), from 4 to 50 in steps of 2. Changing it starts a new game. |
+| **bound** slider | Set the target stretch size (`k`), from 2 to 4. Changing it starts a new game. |
+| **new** | Start a new game with the current size and bound. |
+| **auto** | Start a new game with Player 1 picking automatically; Player 2 still picks manually. |
+| **loop** | Start a game with both players picking randomly. Click **pause** to stop it temporarily and **loop** to resume. |
+| **svg** | Download an SVG of the current display. |
+| **asvg** | Download an animated SVG replay of the recorded loop moves. Available after a loop has made at least one move. |
+
+
+
+
