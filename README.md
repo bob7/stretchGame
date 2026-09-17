@@ -7,7 +7,7 @@ Two players create a bipartite graph between two sets of nodes of size N:
 - player 1 may reuse left-nodes, but Player 2 may never reuse a right-node. 
 - a parameter k sets the difficulty of player 1 winning the game. 
 
-<p margin-top="400px" align="center"><img width="450"  src="./stretch-loop.svg"></p>
+<p margin-top="400px" align="center"><img width="550"  src="./stretch-loop.svg"></p>
 
 A set R of k many right-nodes is a **k-stretch** if r< m where
 
@@ -24,8 +24,8 @@ so that the yellow edges from left to right approach each other (this witnesses 
 
 | Control | Action |
 | --- | --- |
-| **size** slider | Set the number of nodes on each side (`N`), from 4 to 50 in steps of 2. Changing it starts a new game. |
-| **bound** slider | Set the target stretch size (`k`), from 2 to 4. Changing it starts a new game. |
+| **size**  | Set the number of nodes on each side (`N`), from 4 to 50 in steps of 2. Changing it starts a new game. |
+| **bound**  | Set the target stretch size (`k`), from 2 to 4. Changing it starts a new game. |
 | **new** | Start a new game with the current size and bound. |
 | **auto** | Start a new game with Player 1 picking automatically; Player 2 still picks manually. |
 | **loop** | Start a game with both players picking randomly. Click **pause** to stop it temporarily and **loop** to resume. |
