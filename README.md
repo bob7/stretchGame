@@ -24,13 +24,13 @@ so that the yellow edges from left to right approach each other (this witnesses 
 
 | Control | Action |
 | --- | --- |
-| **size**  | Set the number of nodes on each side (`N`), from 4 to 50 in steps of 2. Changing it starts a new game. |
-| **bound**  | Set the target stretch size (`k`), from 2 to 4. Changing it starts a new game. |
+| **size**  | Set the number of nodes on each side (`N`), from 4 to 50 in steps of 2. |
+| **bound**  | Set the target stretch size (`k`), from 2 to 4. |
 | **new** | Start a new game with the current size and bound. |
-| **auto** | Start a new game with Player 1 picking automatically; Player 2 still picks manually. |
-| **loop** | Start a game with both players picking randomly. Click **pause** to stop it temporarily and **loop** to resume. |
+| **auto** | Start a new game with Player 1 picking automatically; |
+| **loop** | Start a game with both players picking randomly.  |
 | **svg** | Download an SVG of the current display. |
-| **asvg** | Download an animated SVG replay of the recorded loop moves. Available after a loop has made at least one move. |
+| **asvg** | Download an animated SVG replay of the recorded loop moves. |
 
 
 
