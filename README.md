@@ -1,10 +1,4 @@
-# Stretch
-
-Stretch is a two-player game on a bipartite graph. 
-
-<p margin-top="400px" align="center"><img width="450"  src="./stretch-loop.svg"></p>
-
-## How to play
+# Stretch game
 
 Two players create a bipartite graph between two sets of nodes of size N: 
 
@@ -12,6 +6,8 @@ Two players create a bipartite graph between two sets of nodes of size N:
 - player 2 answers by clicking an unused node on the right. 
 - player 1 may reuse left-nodes, but Player 2 may never reuse a right-node. 
 - a parameter k sets the difficulty of player 1 winning the game. 
+
+<p margin-top="400px" align="center"><img width="450"  src="./stretch-loop.svg"></p>
 
 A set R of k many right-nodes is a **k-stretch** if r< m where
 
@@ -25,8 +21,6 @@ Player 1 wins as soon as the there is a k-stretch in the graph within N/2 comple
 - yellow edges connect two consecutive red nodes on the left with the smallest and largest red-node on the right
 
 so that the yellow edges from left to right approach each other (this witnesses a k-stretch).
-
-## Controls
 
 | Control | Action |
 | --- | --- |
